@@ -1,9 +1,10 @@
-<li>
+<div class="d-flex w-100 justify-content-between">
 	{{name}}
+<div class="ml-auto">
+	<button class="change-devour btn btn-sm btn-warning" data-id="{{id}}" data-devour="{{devour}}">
+		{{#if devour}}Threw up!{{else}}Devour!{{/if}}
+			</button>
 
-	<button class="change-devour" data-id="{{id}}" data-devour="{{devour}}">
-		{{#if devour}}DEVOUR!{{else}}WAKE UP!{{/if}}
-	</button>
-
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
-</li>
+	<button class="delete-burger btn btn-sm btn-danger" data-id="{{this.id}}">DELETE!</button>
+</div>
+</div>
