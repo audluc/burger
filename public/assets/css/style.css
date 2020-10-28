@@ -1,7 +1,12 @@
+body {
+  height: 100%;
+  margin: 0 auto;
+  background: #121212;
+}
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  background: #faf3d7;
 }
 
 .label {
