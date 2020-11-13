@@ -1,7 +1,7 @@
 {
   "name": "mvc_design",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "handlebars-helper-css": "^0.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audluc/node-express-handlebars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/audluc/node-express-handlebars/issues"
+  },
+  "homepage": "https://github.com/audluc/node-express-handlebars#readme"
 }
