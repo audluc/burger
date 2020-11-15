@@ -13,10 +13,8 @@ Created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM
 
 * Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
-this is a Heroku test
-
-
-
+### screenshot
+![Sample Giphy]()./assets/screenshot burger.png)
 
 ---
 ### Contributing 
@@ -29,5 +27,6 @@ this is a Heroku test
 
 ----
 
-* Heroku link:  
-Link to the Github Repository: https://github.com/audluc/burger
+* Heroku link:  https://stormy-savannah-69546.herokuapp.com/
+
+*Link to the Github Repository: https://github.com/audluc/burger
